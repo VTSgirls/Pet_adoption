@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, sans-serif;
+    width: auto;
+    height: auto;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    padding: 1%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    background-color: rgba(180, 141, 104, 0.86);
+}
+.card_image{
+    margin-right: 5%;
+}
+.card_image img{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
