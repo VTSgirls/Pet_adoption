@@ -1,0 +1,94 @@
+body{
+    position: relative;
+    background-color: rgba(206, 185, 164, 0.86);
+    font-family: Verdana, sans-serif;
+    width: auto;
+    height: auto;
+}
+body::after{
+    content: '';
+    display: block;
+    height: 50px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+h1{
+    -webkit-text-stroke-color: rgba(180, 141, 104, 0.86);
+    -webkit-text-stroke-width: thin;
+    position: absolute;
+    right: 100px; top: 25px;
+}
+.button1, .button2, .button3, .button4, .button5{
+    background-color: rgba(180, 141, 104, 0.86);
+    padding: 15px 32px;
+    position: absolute;
+    right: 130px; top: 105px;
+}
+.about_us{
+    text-align: center;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@media screen and (max-width: 600px) {
+    h1{
+        color: white;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: medium;
+        position: absolute;
+        right: 50px; top: 30px;
+        font-size: medium;
+    }
+    .button1, .button2, .button3, .button4, .button5{
+        background-color: rgba(180, 141, 104, 0.86);
+        padding: 10px 20px;
+        position: absolute;
+        right: 50px; top: 70px;
+        font-size: 8px;
+    }
+    .dot {
+        display: none;
+    }
+
+    .about_us{
+        text-align: center;
+        font-size: 12px;
+    }
+}
