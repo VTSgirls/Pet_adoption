@@ -1,0 +1,40 @@
+.add h1{
+    text-align: center;
+}
+.name{
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.description{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.image{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.price{
+    margin-left: 180px;
+}
+.buttonAdd{
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+.buttonDelete{
+    margin-left: 180px;
+    margin-top: -10px;
+}
+
+.back{
+    margin-left: 180px;
+}
+.add_new{
+    float: right;
+    margin-right: 1100px;
+    margin-top: -23px;
+}
+.delete{
+    margin-left: 25px;
+}
+

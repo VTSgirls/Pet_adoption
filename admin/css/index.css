@@ -1,0 +1,54 @@
+html{
+    margin-top: -240px;
+    margin-left: -500px;
+}
+.sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(180, 141, 104, 0.86);
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+}
+.sidenav i{
+    margin-left: 60px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.main {
+    margin-left: 690px;
+    margin-top: 250px;
+    padding: 0px 10px;
+}
+#welcome{
+    text-align: center;
+}
+.logout{
+    margin-left: 40px;;
+}
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 10px;
+    }
+    .main {
+        margin-left: 670px;
+        margin-top: 250px;
+        padding: 0px 10px;
+    }
+    .sidenav a{
+        font-size: 12px;
+    }
+}
